@@ -1,0 +1,234 @@
+.logo_img {
+  width: 100px;
+}
+
+.market_status {
+  color: red !important;
+}
+
+.ticker {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.name_company {
+  font-size: x-large;
+  font-weight: 600;
+  color: grey;
+}
+
+.box_tab {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-items: center; */
+  padding: 0rem 6rem;
+}
+
+.closed_market {
+  color: red;
+}
+
+.tab_bar {
+  padding: 0rem 8rem !important;
+}
+
+.summary_tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+.summary_tab_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0rem 5rem;
+}
+
+.summary_tab_price p {
+  padding: 0;
+  margin: 0;
+}
+
+.about_company {
+  padding: 2rem 0rem 2rem 8rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company_header {
+  text-decoration: underline;
+}
+
+.news_tab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.news_card {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.news_card img {
+  width: 150px;
+  height: 100px;
+}
+
+.title_modal {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+hr {
+  width: 100%;
+}
+
+.modal_box p {
+  /* padding: 0; */
+  margin: 0;
+}
+
+.social_box {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.share_button {
+  font-size: 0.7rem;
+}
+
+.social_logo {
+  width: 40px;
+  height: 2rem !important;
+  cursor: pointer;
+}
+
+.sentiments-table {
+  width: 100%;
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+.sentiments-table th,
+.sentiments-table td {
+  padding: 0.5rem 5rem;
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+
+.sentiments-table th {
+  /* background-color: #f2f2f2; */
+}
+
+.sentiments-table tr:last-child th,
+.sentiments-table tr:last-child td {
+  border-bottom: none;
+}
+
+.star_fav {
+  cursor: pointer;
+}
+
+.chart_1,
+.chart_2,
+.chart_3 {
+  width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .ticker {
+    font-size: x-large;
+  }
+  .logo_img {
+    width: 50px;
+  }
+  .exchange {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .current_date {
+    font-size: 0.7rem;
+  }
+  .market_status {
+    font-size: 0.9rem;
+    width: 100%;
+    color: red !important;
+  }
+  .box_tab {
+    padding: 0rem;
+  }
+  .tab_bar {
+    padding: 0rem 1.5rem !important;
+  }
+  .MuiTabs-scrollButtons.Mui-disabled {
+    opacity: 0.3;
+  }
+  .summary_tab_price {
+    margin: auto;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .summary_tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about_company {
+    padding: 0rem;
+    margin-top: 1rem;
+  }
+  .chart_1,
+  .chart_2,
+  .chart_3 {
+    width: 350px !important;
+  }
+  .news_tab {
+    grid-template-columns: 1fr;
+  }
+  .news_card img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+  }
+  .sentiments-table th,
+  .sentiments-table td {
+    padding: 0.5rem 1rem;
+  }
+
+  .sentiments-table {
+    margin: 0;
+  }
+  .trade_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .name_company {
+    font-size: 1rem;
+  }
+  .first_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .portfolio_card {
+    width: 100% !important;
+  }
+  .portfolio_start {
+    width: 90% !important;
+  }
+  .card-body {
+    gap: 0rem !important;
+  }
+}

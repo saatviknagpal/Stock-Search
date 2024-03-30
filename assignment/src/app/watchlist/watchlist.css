@@ -1,0 +1,17 @@
+.x_mark {
+  max-width: max-content;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .watchlist_cards {
+    width: 80% !important;
+  }
+  .watchlist_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% !important;
+  }
+}

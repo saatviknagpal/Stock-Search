@@ -1,0 +1,7 @@
+.navbar_cl {
+  background-color: #19239b;
+  padding: 0.5rem 2rem;
+}
+.active-link {
+  border: 2px solid #fff; /* Example styling */
+}
