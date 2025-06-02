@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Assignment4.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- ... other color definitions ... -->
+
+        <!-- Define the ActionBar's style -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <!-- Define the title text style -->
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <style name="GreenButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/trade_btn</item>
+        <!-- You can also specify text color and other attributes here if needed -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- ActionBar title text style -->
+    <style name="MyActionBarTitleText" parent="TextAppearance.MaterialComponents.Headline6">
+        <!-- Set the title text color -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="colorAccent">@color/purple_500</item>
+    </style>
+</resources>
