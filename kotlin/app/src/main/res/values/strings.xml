@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Stocks</string>
+    <string name="title_activity_main">Stocks</string>
+    <string name="search_hint"></string>
+    <string name="shares_format">%d shares</string>
+    <string name="toggle_favorite">Toggle</string>
+    <string name="open_in_chrome">Chrome</string>
+    <string name="share_twitter">twitter</string>
+    <string name="share_facebook">facebook</string>
+
+</resources>
